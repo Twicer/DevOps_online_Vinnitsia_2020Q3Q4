@@ -1,2 +1,4 @@
 # DevOps_online_Vinnitsia_2020
-I think *this* the correct **content** [Go to google](https://google.com.ua)
+* Created local git repo
+* Created GitHub public repo
+* Clone GitHub repo to local workstation
