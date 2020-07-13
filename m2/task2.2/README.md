@@ -2,7 +2,7 @@
 
 1. **VirtualBox**
 	* Created [first VM](https://prnt.sc/tfxjd9); 
-	* Clened an existing VM to the [new one](https://prnt.sc/tfxrk4);
+	* Cloned an existing VM to the [new one](https://prnt.sc/tfxrk4);
 	* Created new group [staged_servers](https://prnt.sc/tfxum7) of our VMs;
 	* Took different [shapshots](https://prnt.sc/tfy888) of firstVM;
 	* Exported first VM to [*.ova file](https://prnt.sc/tgaote), and imported [new VM from *.ova file](https://prnt.sc/tgau0a);
@@ -33,7 +33,7 @@
 			* https://prnt.sc/tgkour
 			* https://prnt.sc/tgkozr
 		* [Clone VM](https://prnt.sc/tgksxv);
-		* [Take snapshot](https://prnt.sc/tgkxox) - https://prnt.sc/tgkxvd
+		* Take snapshot (https://prnt.sc/tgkxox)  -  https://prnt.sc/tgkxvd
 		* [Control VM](https://prnt.sc/tgkz9j)
 
 2. **Vagrant**
@@ -70,6 +70,6 @@
 			```
 		* [Ports for apache - 80 and mysql - 3306 are open](https://prnt.sc/th31za)
 		* [Repackaged the VM into a new Vagrant Box](https://prnt.sc/th38mz)
-		* [Added the box into our Vagrant](https://prnt.sc/th3ads)  - https://prnt.sc/th3b4v
+		* Added the box into our Vagrant (https://prnt.sc/th3ads)  -  https://prnt.sc/th3b4v
 		* [Stopped and deleted VM](https://prnt.sc/th3cal)
 		* [Deleted Vagrantfile and initialezed our new box](https://prnt.sc/th3dh6)
