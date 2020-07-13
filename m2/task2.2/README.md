@@ -16,10 +16,60 @@
 		* [Network IP address](https://prnt.sc/tgdld5)
 		* [Ping from VM](https://prnt.sc/tgdlrw)
 		* Posible connection table:		 
-			* | Mode       | VM-Host | Host-VM | VM1-VM2 | VM-NET/LAN | NET/LAN-VM |
+			  | Mode       | VM-Host | Host-VM | VM1-VM2 | VM-NET/LAN | NET/LAN-VM |
 			  |------------|---------|---------|---------|------------|------------|
 			  | Host-only  | +       | +       | +       | -          | -          |
   			  | Internal   | -       | -       | +       | -          | -          |
 			  | Bridged    | +       | +       | +       | +          | +          |
 			  | NAT        | +       | Port    | -       | +          | Port       |
 			  | NATservice | +       | Port    | +       | +          | Port       |
+	* Executed CLI though VBoxManage:
+		* [VMs List](https://prnt.sc/tge5ay);
+		* [VMs information](https://prnt.sc/tge675);
+		* [Create VM](https://prnt.sc/tgkbmy);
+		* [Start VM](https://prnt.sc/tgkdw9);
+		* Modify VM:
+			* https://prnt.sc/tgkkop
+			* https://prnt.sc/tgkour
+			* https://prnt.sc/tgkozr
+		* [Clone VM](https://prnt.sc/tgksxv);
+		* [Take snapshot](https://prnt.sc/tgkxox) - https://prnt.sc/tgkxvd
+		* [Control VM](https://prnt.sc/tgkz9j)
+
+2. **Vagrant**
+	* [Made home dir for our project](https://prnt.sc/tgy3ti)
+	* [Initialized the environment with the default Vagrant box](https://prnt.sc/tgy6hz)
+	* [Create, configure and run VM](https://prnt.sc/th0vf5)
+	* Connect to VM via SSH:
+		* https://prnt.sc/th0w2b
+		* https://prnt.sc/th0wix  -  https://prnt.sc/th0wvc
+	* [Check some command](https://prnt.sc/th0xg9)
+	* [Stopped and deleted VM](https://prnt.sc/th11f4)
+	* Created our box with the simple services for site work:
+		* [Connected via ssh to VM](https://prnt.sc/th1rwm)
+		* Updated and uploaded VM's repo lists:
+			```
+			sudo apt-get update
+			sudo apt-get upgrade
+			```
+		* [Installed web-server apache](https://prnt.sc/th2rya)
+			```
+			sudo apt-get install apache2
+			```
+		* [Installed RDBMS - MySQL and its extentions, and cofigured](https://prnt.sc/th2zak)
+			```
+			sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+			sudo mysql_install_db
+			sudo /usr/bin/mysql_secure_installation
+			```
+		* [Installed php and its extensions](https://prnt.sc/th30q8)
+			```
+			sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+			sudo apt-get install php5-cgi php5-cli php5-curl php5-common php5-gd php5-mysql
+			sudo service apache2 restart
+			```
+		* [Ports for apache - 80 and mysql - 3306 are open](https://prnt.sc/th31za)
+		* [Repackaged the VM into a new Vagrant Box](https://prnt.sc/th38mz)
+		* [Added the box into our Vagrant](https://prnt.sc/th3ads)  - https://prnt.sc/th3b4v
+		* [Stopped and deleted VM](https://prnt.sc/th3cal)
+		* [Deleted Vagrantfile and initialezed our new box](https://prnt.sc/th3dh6)
