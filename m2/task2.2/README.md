@@ -16,13 +16,13 @@
 		* [Network IP address](https://prnt.sc/tgdld5)
 		* [Ping from VM](https://prnt.sc/tgdlrw)
 		* Posible connection table:		 
-			  | Mode       | VM-Host | Host-VM | VM1-VM2 | VM-NET/LAN | NET/LAN-VM |
-			  |------------|---------|---------|---------|------------|------------|
-			  | Host-only  | +       | +       | +       | -          | -          |
-  			  | Internal   | -       | -       | +       | -          | -          |
-			  | Bridged    | +       | +       | +       | +          | +          |
-			  | NAT        | +       | Port    | -       | +          | Port       |
-			  | NATservice | +       | Port    | +       | +          | Port       |
+			 * | Mode       | VM-Host | Host-VM | VM1-VM2 | VM-NET/LAN | NET/LAN-VM |
+			   |------------|---------|---------|---------|------------|------------|
+			   | Host-only  | +       | +       | +       | -          | -          |
+  			   | Internal   | -       | -       | +       | -          | -          |
+			   | Bridged    | +       | +       | +       | +          | +          |
+			   | NAT        | +       | Port    | -       | +          | Port       |
+			   | NATservice | +       | Port    | +       | +          | Port       |
 	* Executed CLI though VBoxManage:
 		* [VMs List](https://prnt.sc/tge5ay);
 		* [VMs information](https://prnt.sc/tge675);
