@@ -73,3 +73,25 @@
 		* Added the box into our Vagrant (https://prnt.sc/th3ads)  -  https://prnt.sc/th3b4v
 		* [Stopped and deleted VM](https://prnt.sc/th3cal)
 		* [Deleted Vagrantfile and initialezed our new box](https://prnt.sc/th3dh6)
+	* Created a different VM with nginx web-server, and runned VMs with nginx and apache+php+mysql simultaneously:
+		* Created new VM dir, initialized new VM and runned it  -  https://prnt.sc/thnunj:
+			```
+			mkdir .\Denys_Vagrant_two
+			cd .\Denys_Vagrant_two\
+			vagrant init hashicorp/precise64
+			vagrant up
+			``` 
+		* Connecte to new CM via SSH and installed nginx on it:
+			```
+			sudo apt-get update
+			sudo apt-get install nginx
+			```
+		* Runned our second VM with apache+php+mysql
+			```
+			cd .\Denys_Vagrant\
+			vagrant up
+			```
+		* VM with nginx is running with 2222 port  -  https://prnt.sc/thntly 
+			* [nginx is running](https://prnt.sc/thns78)
+		* VM with apache is running with 2200 port  -  https://prnt.sc/thntzt
+			* [apache is running](https://prnt.sc/thnt06)
