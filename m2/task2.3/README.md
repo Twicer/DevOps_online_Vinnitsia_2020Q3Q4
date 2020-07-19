@@ -1,4 +1,4 @@
-##Virtualization and Cloud Basic
+## Virtualization and Cloud Basic
 
 1. Created VM in the AWS with nginx:
 	* https://prnt.sc/tjscei
