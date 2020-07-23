@@ -19,3 +19,4 @@
    * **Oracle VM VirtualBox** - for Linux, macOS, Microsoft Windows, FreeBSD, Solaris/OpenSolaris, ReactOS, DOS and other Oracle OS. The source code of the basic version is open under licence and is therefore available for modifications.
    * **VMWare WorkStation**   - priority software is working with x86-64 Microsoft Windows, Linux, Ubuntu, CentOS OS, supports more than 200 user's OS.
    * **KVM**                  - is virtualization solution for Linux / x86 platforms supporting hardware extensions (Intel VT and AMD-V). Easy to use, lightweight, undemanding to resources and quite functional.
+ 
