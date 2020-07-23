@@ -27,3 +27,4 @@
 	* Merge **images** to **develop**
 	* Merge **styles** to **develop**
 * Merge **develop** to **master**
+ 
