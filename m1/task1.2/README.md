@@ -7,7 +7,9 @@
 	* Added empty file *index.html*
 	* Created branch **images**
 		* Added dir *images*
-		* Added [first](https://i.imgur.com/k83iHzS.png) and [second](https://i.imgur.com/aWYE6Ng.png) images
+		* Added first and [second](https://i.imgur.com/aWYE6Ng.png) images
+			![alt text](https://github.com/dkoval-py/images_for_tasks/blob/master/bash.png)
+			![alt text](https://i.imgur.com/aWYE6Ng.png)
 		* Added image tag to *index.html*
 	* Created branch **styles**
 		* Added dir *styles*
