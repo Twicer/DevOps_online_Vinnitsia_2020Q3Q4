@@ -11,3 +11,4 @@
 	* [Target group](https://i.imgur.com/ahMRxo4.png)
 	* [Load balancer](https://i.imgur.com/CtGKVkp.png)
 	* [Nginx default page](https://i.imgur.com/TNNPLay.png)
+ 

@@ -95,3 +95,4 @@
 			* [nginx is running](https://prnt.sc/thns78)
 		* VM with apache is running with 2200 port  -  https://prnt.sc/thntzt
 			* [apache is running](https://prnt.sc/thnt06)
+ 
