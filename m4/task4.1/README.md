@@ -2,7 +2,7 @@
 ### Task4.1
 
 1) Firstly I assembled a first topology **file - task4.1(1hab_4pc)** which includes 4 PC and 1 hub.
-![](https://prnt.sc/toqoka)
+	![](https://prnt.sc/toqoka)
 
 Then i assigned unique IP address from subnet 192.168.0.0/24 to each PC. There is a assigned IP addresses list below:  
 | Name  |  IP address  |
