@@ -18,8 +18,10 @@
 		* ![](https://i.imgur.com/t1mDnjU.png)
 		* ![](https://i.imgur.com/q1YDDV7.png)
 		* ![](https://i.imgur.com/Pj5JoPw.png)
-	* Configured new *Host-onel network adapter* for VM - https://prnt.sc/tgdhgs
-		* [VM IP address](https://prnt.sc/tgdiql)
+	* Configured new *Host-onel network adapter* for VM:
+		* ![](https://i.imgur.com/NXelJty.png)
+		* VM IP address 
+			* ![]https://i.imgur.com/NLR1mJO.png)
 		* [Ping from local machine](https://prnt.sc/tgdjml)
 		* [Network IP address](https://prnt.sc/tgdld5)
 		* [Ping from VM](https://prnt.sc/tgdlrw)
