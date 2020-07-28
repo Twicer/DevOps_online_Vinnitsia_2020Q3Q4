@@ -4,14 +4,16 @@
 * Clone GitHub repo to local workstation
 * Created work directories
 * Created branch **develop**
-```
-git checkout -b develop
-```
+	```
+	git checkout -b develop
+	```
+
 	* Added empty file *index.html*
 	* Created branch **images**
 	```
 	git checkout -b images
 	```
+
 		* Added dir *images*
 		* Added first and images
 			![alt text](https://i.imgur.com/Y4MTOzh.png) ![alt text](https://i.imgur.com/aWYE6Ng.png)
