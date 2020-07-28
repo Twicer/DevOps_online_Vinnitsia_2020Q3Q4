@@ -1,7 +1,8 @@
 ## Virtualization and Cloud Basic
 
 1. **VirtualBox**
-	* Created [first VM](https://prnt.sc/tfxjd9); 
+	* Created first VM;
+	![](https://i.imgur.com/dylPNh6.png) 
 	* Cloned an existing VM to the [new one](https://prnt.sc/tfxrk4);
 	* Created new group [staged_servers](https://prnt.sc/tfxum7) of our VMs;
 	* Took different [shapshots](https://prnt.sc/tfy888) of firstVM;
