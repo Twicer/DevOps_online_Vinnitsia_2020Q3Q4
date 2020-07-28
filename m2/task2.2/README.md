@@ -12,10 +12,12 @@
 	* Exported first VM to "*.ova" file, and imported new VM from "*.ova" file;
 		* ![](https://i.imgur.com/MM9qXf9.png)
 		* ![](https://i.imgur.com/qTkDYUu.png)
-	* Configured [USB filter for VM](https://prnt.sc/tgb95v);
-	* Configured a [shared folder](https://prnt.sc/tgbhqu)
-		* https://prnt.sc/tgbjz6
-		* https://prnt.sc/tgbkkr
+	* Configured USB filter for VM;
+		* ![](https://i.imgur.com/kVSdEXb.png)
+	* Configured a shared folder
+		* ![](https://i.imgur.com/t1mDnjU.png)
+		* ![](https://i.imgur.com/q1YDDV7.png)
+		* ![](https://i.imgur.com/Pj5JoPw.png)
 	* Configured new *Host-onel network adapter* for VM - https://prnt.sc/tgdhgs
 		* [VM IP address](https://prnt.sc/tgdiql)
 		* [Ping from local machine](https://prnt.sc/tgdjml)
