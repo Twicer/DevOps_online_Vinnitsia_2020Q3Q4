@@ -8,8 +8,7 @@
 	* Created branch **images**
 		* Added dir *images*
 		* Added first and images
-			![alt text](https://i.imgur.com/Y4MTOzh.png)
-			![alt text](https://i.imgur.com/aWYE6Ng.png)
+			![alt text](https://i.imgur.com/Y4MTOzh.png) ![alt text](https://i.imgur.com/aWYE6Ng.png)
 		* Added image tag to *index.html*
 	* Created branch **styles**
 		* Added dir *styles*
