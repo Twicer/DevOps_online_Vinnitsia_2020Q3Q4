@@ -37,10 +37,26 @@
 			   | NAT        | +       | Port    | -       | +          | Port       |
 			   | NATservice | +       | Port    | +       | +          | Port       |
 	* Executed CLI though VBoxManage:
-		* [VMs List](https://prnt.sc/tge5ay);
-		* [VMs information](https://prnt.sc/tge675);
-		* [Create VM](https://prnt.sc/tgkbmy);
-		* [Start VM](https://prnt.sc/tgkdw9);
+		* VMs List
+			```
+			VBoxManage.exe list vms
+			```
+			* ![](https://i.imgur.com/vblV6AL.png);
+		* VMs information
+			```
+			VBoxManage.exe showvminfo "Ubuntu_Koval"
+			```
+			* ![](https://i.imgur.com/Qb3qmga.png);
+		* Create VM
+			```
+			VBoxManage.exe createvm --name 'TestVM' --basefolder 'E:\Ubuntu_Koval_VM'
+			```
+			* ![](https://prnt.sc/tgkbmy);
+		* Start VM
+			```
+			VBoxManage.exe startvm "Ubuntu_Koval" --type gui
+			```
+			* ![](https://i.imgur.com/SIXP0A7.png)
 		* Modify VM:
 			* https://prnt.sc/tgkkop
 			* https://prnt.sc/tgkour
