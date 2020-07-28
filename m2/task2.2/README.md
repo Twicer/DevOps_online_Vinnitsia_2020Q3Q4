@@ -21,10 +21,13 @@
 	* Configured new *Host-onel network adapter* for VM:
 		* ![](https://i.imgur.com/NXelJty.png)
 		* VM IP address 
-			* ![]https://i.imgur.com/NLR1mJO.png)
-		* [Ping from local machine](https://prnt.sc/tgdjml)
-		* [Network IP address](https://prnt.sc/tgdld5)
-		* [Ping from VM](https://prnt.sc/tgdlrw)
+			* ![](https://i.imgur.com/NLR1mJO.png)
+		* Ping from local machine
+			* ![](https://i.imgur.com/hBAERxG.png)
+		* Network IP address
+			* ![](https://i.imgur.com/L1JJtDx.png)
+		* Ping from VM
+			* ![](https://i.imgur.com/JbweA7Z.png)
 		* Posible connection table:		 
 			 * | Mode       | VM-Host | Host-VM | VM1-VM2 | VM-NET/LAN | NET/LAN-VM |
 			   |------------|---------|---------|---------|------------|------------|
