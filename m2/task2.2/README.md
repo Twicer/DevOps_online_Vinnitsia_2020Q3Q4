@@ -3,10 +3,15 @@
 1. **VirtualBox**
 	* Created first VM;
 		* ![](https://i.imgur.com/dylPNh6.png) 
-	* Cloned an existing VM to the [new one](https://prnt.sc/tfxrk4);
-	* Created new group [staged_servers](https://prnt.sc/tfxum7) of our VMs;
-	* Took different [shapshots](https://prnt.sc/tfy888) of firstVM;
-	* Exported first VM to [*.ova file](https://prnt.sc/tgaote), and imported [new VM from *.ova file](https://prnt.sc/tgau0a);
+	* Cloned an existing VM to the new one;
+		* ![](https://i.imgur.com/savIFKM.png)
+	* Created new group "*staged_servers*" of our VMs;
+		* ![](https://i.imgur.com/AkVsyoI.png)
+	* Took different shapshots of firstVM;
+		* ![](https://i.imgur.com/aBdnMMs.png)
+	* Exported first VM to "*.ova" file, and imported new VM from "*.ova" file;
+		* ![](https://i.imgur.com/MM9qXf9.png)
+		* ![](https://i.imgur.com/qTkDYUu.png)
 	* Configured [USB filter for VM](https://prnt.sc/tgb95v);
 	* Configured a [shared folder](https://prnt.sc/tgbhqu)
 		* https://prnt.sc/tgbjz6
