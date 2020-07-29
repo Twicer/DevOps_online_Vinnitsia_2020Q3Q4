@@ -33,9 +33,9 @@ From hub to each devices again:
 * Deleted our PC's IP addresses. Check connetion (Packages aren't going through netwotrk):
 ![](https://i.imgur.com/pjpokoT.png )
 
-2) New topology **file - task4.1(2hub_6pc_1server).pkt** which includes 4 PCs, 1 Server and 2 Hubs:
+2) New topology **file - task4.1(2hub_6pc_1server).pkt** which includes 6 PCs, 1 Server and 2 Hubs:
 	* ![](https://i.imgur.com/yB391cW.png )
-Assigned IP addresseses for PCs and Server, and checked connection:
+* Assigned IP addresseses for PCs and Server, and checked connection:
 ![](https://i.imgur.com/LL9jcTv.png)
 ![](https://i.imgur.com/EPq3CWL.png)
 ![](https://i.imgur.com/JlVeOoh.png)
@@ -47,7 +47,7 @@ Assigned IP addresseses for PCs and Server, and checked connection:
 
 3) New topology **file - task4.1(switch_4PC).pkt** which includes 1 Switch and 4 PCs:
 ![](https://i.imgur.com/xXpCZvY.png)
-Assigned IP addresses to PCs and checked connection:
+* Assigned IP addresses to PCs and checked connection:
 ![](https://i.imgur.com/tBFHIIS.png)
 ![](https://i.imgur.com/CbdyT50.png)
 ![](https://i.imgur.com/MIslisL.png)
@@ -60,7 +60,7 @@ Assigned IP addresses to PCs and checked connection:
 
 4) New topology **file - task4.1(2switch_8PC).pkt** which includes 2 Switches and 8 PCs.
 ![](https://i.imgur.com/njg527l.png)
-I assigned IP addresses to PCs and checked connection:
+* I assigned IP addresses to PCs and checked connection:
 ![](https://i.imgur.com/zeX8mA7.png)
 ![](https://i.imgur.com/mybatqb.png)
 ![](https://i.imgur.com/L0vFQga.png)
@@ -74,13 +74,13 @@ I assigned IP addresses to PCs and checked connection:
 
 5) New topology **file - task4.1(1router_2switch_8PC).pkt** which includes 1 Router, 2 Switches, 8 PCs.
 ![](https://i.imgur.com/TTsvkiu.png)
-I opened Router's ports and assigned IP addresses to it according two networks which connected to it
+* I opened Router's ports and assigned IP addresses to it according two networks which connected to it
 ![](https://i.imgur.com/dL82T5J.png)
 ![](https://i.imgur.com/dL82T5J.png)
-I assigned Default Gateway for each PC.
+* I assigned Default Gateway for each PC.
 ![](https://i.imgur.com/FlwvGLC.png)
 
-Connection:
+* Connection:
 ![](https://i.imgur.com/LMYjMJ2.png)
 ![](https://i.imgur.com/8FcyhrD.png)
 ![](https://i.imgur.com/XHAm1nP.png)
