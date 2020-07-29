@@ -68,7 +68,7 @@ From hub to each devices again:
 ![](https://i.imgur.com/SYdrvOI.png)
 ![](https://i.imgur.com/wG4knnv.png)
 * Packages from PC without IP address aren't sent:
-![](https://i.imgur.com/YS5H8UW.png)
+* ![](https://i.imgur.com/YS5H8UW.png)
 
 
 
@@ -90,7 +90,7 @@ From hub to each devices again:
 ![](https://i.imgur.com/HSCjfs8.png)
 ![](https://i.imgur.com/oijxMZB.png)
 * Packages from PC without IP address aren't sent:
-![](https://i.imgur.com/YYbnYlL.png)
+* ![](https://i.imgur.com/YYbnYlL.png)
 
 * The difference between fourth (2 Switches, 8 PCs) and fifth (1 Router, 2 Switches, 8 PCs) topology is that in fourth packages are sent within one subnet: 192.168.0.0./24 using Switch (it works on the second level (Data link) of the OSI model).
 In the fifth topology there are two subnet 192.168.0.0./24 92.168.1.0./24 which connected to each other using router (it works on the third level (Transport) of OSI model). Router provides an opportunity to connect different subnet to ech other and send packages through those subnets 
