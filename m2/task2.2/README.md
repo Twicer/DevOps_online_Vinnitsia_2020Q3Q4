@@ -58,58 +58,79 @@
 			```
 			* ![](https://i.imgur.com/SIXP0A7.png)
 		* Modify VM:
-			* https://prnt.sc/tgkkop
-			* https://prnt.sc/tgkour
-			* https://prnt.sc/tgkozr
-		* [Clone VM](https://prnt.sc/tgksxv);
-		* Take snapshot (https://prnt.sc/tgkxox)  -  https://prnt.sc/tgkxvd
-		* [Control VM](https://prnt.sc/tgkz9j)
+			* ![](https://i.imgur.com/JsGxZoX.png)
+			* ![](https://i.imgur.com/4h1fLzi.png)
+			* ![](https://i.imgur.com/ebJLaF4.png)
+		* Clone VM:
+			* ![](https://i.imgur.com/hzHhmNA.png)
+		* Take snapshot:
+			* ![](https://i.imgur.com/tfzaHqh.png)
+			* ![](https://i.imgur.com/v9c4yHx.png)
+		* Control VM:
+			* ![](https://i.imgur.com/SOFxi9E.png)
 
 2. **Vagrant**
-	* [Made home dir for our project](https://prnt.sc/tgy3ti)
-	* [Initialized the environment with the default Vagrant box](https://prnt.sc/tgy6hz)
-	* [Create, configure and run VM](https://prnt.sc/th0vf5)
+	* Made home dir for our project:
+		* ![](https://i.imgur.com/vK4MmfB.png)
+	* Initialized the environment with the default Vagrant box
+		* ![](https://i.imgur.com/V0DwyZD.png)
+	* Create, configure and run VM:
+		* ![](https://i.imgur.com/BnurMwi.png)
 	* Connect to VM via SSH:
-		* https://prnt.sc/th0w2b
-		* https://prnt.sc/th0wix  -  https://prnt.sc/th0wvc
-	* [Check some command](https://prnt.sc/th0xg9)
-	* [Stopped and deleted VM](https://prnt.sc/th11f4)
+		* ![](https://i.imgur.com/9QYc8sg.png)
+		* ![](https://i.imgur.com/N7ybk2x.png) 
+		* ![](https://i.imgur.com/wDdVWQN.png)
+	* Check some command:
+		* ![](https://i.imgur.com/0A5q78f.png)	
+	* Stopped and deleted VM:
+		* ![](https://i.imgur.com/Z6KEShk.png)
 	* Created our box with the simple services for site work:
-		* [Connected via ssh to VM](https://prnt.sc/th1rwm)
+		* Connected via ssh to VM
+			* ![](https://i.imgur.com/7vj9KMn.png)
 		* Updated and uploaded VM's repo lists:
 			```
 			sudo apt-get update
 			sudo apt-get upgrade
 			```
-		* [Installed web-server apache](https://prnt.sc/th2rya)
+		* Installed web-server apache
 			```
 			sudo apt-get install apache2
 			```
-		* [Installed RDBMS - MySQL and its extentions, and cofigured](https://prnt.sc/th2zak)
+			* ![](https://i.imgur.com/vu8xxab.png)
+		* Installed RDBMS - MySQL and its extentions, and cofigured
 			```
 			sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
 			sudo mysql_install_db
 			sudo /usr/bin/mysql_secure_installation
 			```
-		* [Installed php and its extensions](https://prnt.sc/th30q8)
+			* ![](https://i.imgur.com/vPmuUBU.png)
+		* Installed php and its extensions:
 			```
 			sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
 			sudo apt-get install php5-cgi php5-cli php5-curl php5-common php5-gd php5-mysql
 			sudo service apache2 restart
 			```
-		* [Ports for apache - 80 and mysql - 3306 are open](https://prnt.sc/th31za)
-		* [Repackaged the VM into a new Vagrant Box](https://prnt.sc/th38mz)
-		* Added the box into our Vagrant (https://prnt.sc/th3ads)  -  https://prnt.sc/th3b4v
-		* [Stopped and deleted VM](https://prnt.sc/th3cal)
-		* [Deleted Vagrantfile and initialezed our new box](https://prnt.sc/th3dh6)
+			* ![](https://i.imgur.com/YozecAS.png)
+		* Ports for apache - 80 and mysql - 3306 are open:
+			* ![](https://i.imgur.com/V4JdH8K.png)
+		* Repackaged the VM into a new Vagrant Box:
+			* ![](https://i.imgur.com/f6jx0zw.png)
+		* Added the box into our Vagrant 
+			* ![](https://i.imgur.com/X2tSxvr.png)
+			* ![](https://i.imgur.com/jZKQmgp.png)
+		* Stopped and deleted VM:
+			* ![](https://i.imgur.com/aLWGWVj.png)
+		* Deleted Vagrantfile and initialezed our new box
+			* ![](https://i.imgur.com/VFjLQPF.png)
 	* Created a different VM with nginx web-server, and runned VMs with nginx and apache+php+mysql simultaneously:
-		* Created new VM dir, initialized new VM and runned it  -  https://prnt.sc/thnunj:
+		* Created new VM dir, initialized new VM and runned it:
 			```
 			mkdir .\Denys_Vagrant_two
 			cd .\Denys_Vagrant_two\
 			vagrant init hashicorp/precise64
 			vagrant up
 			``` 
+			* ![](https://i.imgur.com/FxPfXQA.png)
 		* Connecte to new CM via SSH and installed nginx on it:
 			```
 			sudo apt-get update
@@ -120,8 +141,12 @@
 			cd .\Denys_Vagrant\
 			vagrant up
 			```
-		* VM with nginx is running with 2222 port  -  https://prnt.sc/thntly 
-			* [nginx is running](https://prnt.sc/thns78)
-		* VM with apache is running with 2200 port  -  https://prnt.sc/thntzt
-			* [apache is running](https://prnt.sc/thnt06)
+		* VM with nginx is running with 2222 port
+			* ![](https://i.imgur.com/a8DddGH.png) 
+			* nginx is running:
+				* ![](https://i.imgur.com/dR2Yi5g.png)
+			* VM with apache is running with 2200 port:
+				* ![](https://i.imgur.com/AyR729a.png)
+			* apache is running:
+				* ![](https://i.imgur.com/JuabyKw.png)
  
