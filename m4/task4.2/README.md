@@ -34,3 +34,24 @@
 		* ![](https://i.imgur.com/1LO9m1N.png)
 	* Ping from *PC0 - 192.168.0.2* to *PC24 - 156.82.1.3*:
 		* ![](https://i.imgur.com/goBFiZ2.png)  
+
+
+3) I built a network for five one-floor building, there is one work group on each building which include 6 PCs. Network is built using one router with one port **FILE - third_topology.pkt**.
+	* Network:
+		* ![](https://i.imgur.com/4XYeyHc.png)
+	* Ping from PC from first subnet (first building) to PC from second subnet (second building)
+		* ![](https://i.imgur.com/P4xLVed.png)
+	* ICMP from second subnet to first one:
+		* ![](https://i.imgur.com/FAvjNcT.png)
+	* Ping from first subnet to third one:
+		* ![](https://i.imgur.com/LCysoF7.png)
+	* ICMP from third subnet to first one:
+		* ![](https://i.imgur.com/PNnHuR4.png)
+	* Ping from second subnet to fourth one:
+		* ![](https://i.imgur.com/7HR0pzT.png)
+	* ICMP from fourth subnet to third one:
+		* ![](https://i.imgur.com/7d2igTd.png)
+	* Ping from fourth subnet to fifth one:
+		* ![](https://i.imgur.com/4azuNFt.png)
+	* ICMP from fifth subnet to first one:
+		* ![](https://i.imgur.com/hm7oYnt.png)
