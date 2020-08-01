@@ -1,4 +1,4 @@
-## Task 4.1
+## Task 4.2
 
 1) I built a network for two 2-storey building and connected them together using two routers **FILE - first_topology.pkt**. There are two network within each building first is on the first floor and second is on the second floor. Each subnet includes 5 PCs. PCs are connected using switch, switches are connected using router.
 	* Network:
