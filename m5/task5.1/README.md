@@ -1,8 +1,8 @@
 ## Task 5.1
 
-``
-printenv:
-``
+	```
+	printenv
+	```
 
 	* ![](https://i.imgur.com/hMguDI1.png)
 
