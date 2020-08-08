@@ -37,12 +37,5 @@ ls -lda ~
 ![](https://i.imgur.com/9ylxgzi.png)
 
 
-	* Create a *test* dir 
-	``
-	mkdir test
-	``
-	* go to this one 
-	``
-	cd test
-	``
-	* check our location ``pwd``, create file *test.txt* ``touch test.txt``, create socond dir ``mkdir test2``  
+ Create a new dir: ``mkdir test``, go to this dir: ``cd test``,  check our location: ``pwd``, create file *test.txt*: ``touch test.txt``, create socond dir: ``mkdir test2``, move *test.txt* to *test2*: ``mv test.txt test2``, go to this dir: ``cd test2``, check files list: ``ls``, rename *test.txt* to *test2.txt*: ``mv test.txt test2.txt``, check files list: ``ls``, copy *test2.txt* one  level below: ``cp test2/txt ../``, go to one level below: ``cd ..``, check files list there: ``ls``, delete dir and file: ``rm -rf test2*``
+![](https://i.imgur.com/HjJNPQA.png)
