@@ -40,18 +40,19 @@ ls -lda ~
  Create a new dir: ``mkdir test``, go to this dir: ``cd test``,  check our location: ``pwd``, create file *test.txt*: ``touch test.txt``, create socond dir: ``mkdir test2``, move *test.txt* to *test2*: ``mv test.txt test2``, go to this dir: ``cd test2``, check files list: ``ls``, rename *test.txt* to *test2.txt*: ``mv test.txt test2.txt``, check files list: ``ls``, copy *test2.txt* one  level below: ``cp test2/txt ../``, go to one level below: ``cd ..``, check files list there: ``ls``, delete dir and file: ``rm -rf test2*``.
 * ![](https://i.imgur.com/HjJNPQA.png)
 
-``
+```
 cat /etc/fstab
 ```
 ![](https://i.imgur.com/OFZ0I6d.png)
 
-``
+```
 less /etc/fstab
-``
+```
 ![](https://i.imgur.com/GPvbOEr.png)
 
-``
+```
 more /etc/fctab
-``
+```
 ![](https://i.imgur.com/wa7xbfP.png)
-
+```
+The difference between command cat, less and more is that cat displays files content using standard output, commands more and less displays files content using page by page output. 
