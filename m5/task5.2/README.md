@@ -5,8 +5,6 @@
 pwd
 ```
 ![](https://i.imgur.com/0chVjfm.png)
-```
-
  
 Show list of files in root directory in human readable format, with information about rules, count of hard links, owner and group, size, creation date, and name
 ```
