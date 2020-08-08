@@ -1,6 +1,6 @@
 ## Task 5.2
 
-1) 
+1. 
 ```
 pwd
 ```
@@ -8,7 +8,8 @@ pwd
 
 ```
 
-2) Show list of files in root directory in human readable format, with information about rules, count of hard links, owner and group, size, creation date, and name
+2. 
+Show list of files in root directory in human readable format, with information about rules, count of hard links, owner and group, size, creation date, and name
 ```
 ls -l / 
 ```
