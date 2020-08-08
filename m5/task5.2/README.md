@@ -29,3 +29,12 @@ Show list of hidden files
 ls -a
 ```
 ![](https://i.imgur.com/SCYRCiy.png)
+
+Show information about your home dir (rules, count of hard links, owner and group, size, creation date, and name)
+```
+ls -lda ~
+```
+![](https://i.imgur.com/9ylxgzi.png)
+
+
+Create a *test* dir ``mkdir test``, go to this one, 
