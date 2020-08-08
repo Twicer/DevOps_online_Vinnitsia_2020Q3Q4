@@ -5,7 +5,6 @@
 pwd
 ```
 ![](https://i.imgur.com/0chVjfm.png)
-
 ```
 
  
