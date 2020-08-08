@@ -54,5 +54,5 @@ less /etc/fstab
 more /etc/fctab
 ```
 ![](https://i.imgur.com/wa7xbfP.png)
-```
+
 The difference between command cat, less and more is that cat displays files content using standard output, commands more and less displays files content using page by page output. 
