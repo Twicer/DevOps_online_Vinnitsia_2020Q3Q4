@@ -10,7 +10,7 @@ Show list of files in root directory in human readable format, with information 
 	```
 	ls -l / 
 	```
-![](https://i.imgur.com/1fVrPmE.png)
+	![](https://i.imgur.com/1fVrPmE.png)
 
 Show only files list
 	```
