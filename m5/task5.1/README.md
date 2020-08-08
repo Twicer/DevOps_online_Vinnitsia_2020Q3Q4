@@ -1,10 +1,10 @@
 ## Task 5.1
 
-	```
-	printenv
-	```
+```
+printenv
+```
 
-	* ![](https://i.imgur.com/hMguDI1.png)
+1) ![](https://i.imgur.com/hMguDI1.png)
 
 ```
 cat /etc/profile
