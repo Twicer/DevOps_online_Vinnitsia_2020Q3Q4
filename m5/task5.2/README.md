@@ -37,4 +37,12 @@ ls -lda ~
 ![](https://i.imgur.com/9ylxgzi.png)
 
 
-Create a *test* dir ``mkdir test``, go to this one, 
+	* Create a *test* dir 
+	``
+	mkdir test
+	``
+	* go to this one 
+	``
+	cd test
+	``
+	* check our location ``pwd``, create file *test.txt* ``touch test.txt``, create socond dir ``mkdir test2``  
