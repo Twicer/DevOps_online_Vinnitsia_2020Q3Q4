@@ -9,7 +9,7 @@ printenv
 ```
 cat /etc/profile
 ```
-2) ![](https://i.imgur.com/l2jwuKk.png)
+![](https://i.imgur.com/l2jwuKk.png)
 
 ```
 cat ~/.bashrc
