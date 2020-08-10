@@ -15,19 +15,19 @@ Finding only files ```-type f``` from root ```find /```  with active sticky bits
 ```
 mount
 ```
-	* ![](https://i.imgur.com/63fWfMJ.png)
+![](https://i.imgur.com/63fWfMJ.png)
 * Display block device attributes (including UUID)
 ```
 blkid
 ```
-	* ![](https://i.imgur.com/uc1fCTs.png)
+![](https://i.imgur.com/uc1fCTs.png)
 
 * Display first mounted hard disks and output kernel messages about hard disk
 ```
 mount | grep sda
 dmesg | grep sda
 ```
-	* ![](https://i.imgur.com/ELdFzZj.png)
+![](https://i.imgur.com/ELdFzZj.png)
 
 ```
 grep -Re 'root' /etc > root_entries.txt
