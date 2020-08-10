@@ -10,4 +10,26 @@ Finding only files ```-type f``` from root ```find /```  with active sticky bits
 * Create a hard link:
 	* ![](https://i.imgur.com/uZCK71l.png)
 * Soft link:
-![](https://i.imgur.com/ZrWXmPg.png)
+	* ![](https://i.imgur.com/ZrWXmPg.png)
+* Display mounted devices:
+```
+mount
+```
+	* ![](https://i.imgur.com/63fWfMJ.png)
+* Display block device attributes (including UUID)
+```
+blkid
+```
+	* ![](https://i.imgur.com/uc1fCTs.png)
+
+* Display first mounted hard disks and output kernel messages about hard disk
+```
+mount | grep sda
+dmesg | grep sda
+```
+	* ![](https://i.imgur.com/ELdFzZj.png)
+
+```
+grep -Re 'root' /etc > root_entries.txt
+```
+![](https://i.imgur.com/p7rf0ER.png)
