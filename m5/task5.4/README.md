@@ -1,11 +1,11 @@
 # Task 5.4
 
-Creat new group, new user (with shell access /bin/bash and home dir /home/user), add user to group, change password for user, show its uid and gid and login to user:
-![](https://i.imgur.com/9Vwavvx.png)
-Edit /etc/passwd to prevent user **user** from logging in to the system (as shell command set /usr/sbin/nologin):
+1) Creat new group, new user (with shell access /bin/bash and home dir /home/user), add user to group, change password for user, show its uid and gid and login to user:
+	* ![](https://i.imgur.com/9Vwavvx.png)
+2) Edit /etc/passwd to prevent user **user** from logging in to the system (as shell command set /usr/sbin/nologin):
 	* ![](https://i.imgur.com/CFHMAng.png)
 	* ![](https://i.imgur.com/2Csmt68.png)
-Content of */etc/passwd* and */etc/group*
+3) Content of */etc/passwd* and */etc/group*
 	* ![](https://i.imgur.com/fV7Imhc.png)
 	* ![](https://i.imgur.com/fV3AvCo.png)
 Get data from */etc/passwd* and */etc/group* about users: *root*, *user* using  filter grep:
