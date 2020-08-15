@@ -9,7 +9,7 @@
 4. Allow Linux to read the aquota.user file:
 	* ![](https://i.imgur.com/aOpYIco.png)
 5. Edit quotas for user *utest* and set the limit of the available disk space to soft: 100M and hard: 150M:
-```
-edquota -u utest
-```
+	```
+	edquota -u utest
+	```
 	* ![](https://i.imgur.com/8VMDDVK.png)
