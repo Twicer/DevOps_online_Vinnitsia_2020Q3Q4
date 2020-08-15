@@ -34,7 +34,7 @@ There are two users: guest (included into the list of sudoers) and utest.
 	* ![](https://i.imgur.com/CHzbBYZ.png)
 10. Being logged in as *utest*, invoke ``touch`` to create the file *utest2.txt* in the */tmp/acl_test* directory:
 	* ![](https://i.imgur.com/bF1DtWl.png)
- * Rights to the Created file only (r) that default acl (-d) is installed on the directory does not change the access rights of the directory itself, but makes sure that the specified access control lists are set by default on all files created inside it.
+ * Permissions to the created file only (r) that default acl (-d) is installed on the directory does not change the permissions of the directory itself, but makes sure that the specified acl are set by default on all files created inside it.
 11. Set	the maximum permissions mask on the */tmp/acl_test/utest.txt* ﬁle in such a way as to allow read-only access.
 	* ![](https://i.imgur.com/7W9JlmA.png)
 12. Delete all ACL entries relative to the */tmp/acl_test* directory:
