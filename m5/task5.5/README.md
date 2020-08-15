@@ -13,3 +13,11 @@
 	edquota -u utest
 	```
 	* ![](https://i.imgur.com/8VMDDVK.png)
+6. Enable quotas for file system:
+	* ![](https://i.imgur.com/Pnhpbux.png)
+7. Report about quotas:
+	* ![](https://i.imgur.com/b58k7hW.png)
+8. Copy *lib* folder to *utest* home folder:
+	* ![](https://i.imgur.com/I0kq0pV.png)
+9. The size of *lib* folder is more than set disk quota for uset *utest*, so we are facing the error:
+	* ![](https://i.imgur.com/hOw5h2X.png)
