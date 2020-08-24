@@ -13,7 +13,7 @@
 2) Make ssh connection more security 
 	* Generate ssh keys and copy it to the server:
 		* ![](https://i.imgur.com/ByELKVK.png)
-	* Change ssh port on the server (in file /etc/ssh/sshd_config) and disable password authentification:
+	* Change ssh port on the server (in file */etc/ssh/sshd_config*) and disable password authentification:
 		* ![](https://i.imgur.com/QzR22UI.png}
 	* Connection from local machine (where there is ssh key) is enabled:
 		* ![](https://i.imgur.com/T6Y4pqN.png)
