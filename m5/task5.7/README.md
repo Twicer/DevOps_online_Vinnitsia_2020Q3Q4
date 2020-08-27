@@ -24,16 +24,20 @@
 	* Check connection:
 		* ![](https://i.imgur.com/I6elNhn.png)
 4) Implement port forwarding for the SSH client from the host machine to the guest Linux virtual machine behind NAT:
-	* ![](https://i.imgur.com/vya22eA.png)
-	* ![](https://i.imgur.com/r75c5yF.png)
-	* ![](https://i.imgur.com/2aoI2gs.png)
+	* ![](https://i.imgur.com/355lCUW.png)
+	* ![](https://i.imgur.com/Jm6KjKv.png)
+	* ![](https://i.imgur.com/yVYnY1p.png)
 5) Intercept traffic (tcpdump) while authorizing the remote client on the server using ssh, telnet:
 	* ssh:
-		* ![](https://i.imgur.com/JsiOHOk.png)
-		* ![](https://i.imgur.com/Y9gxUtn.png)
-		* ![](https://i.imgur.com/M96TS6J.png)
+		```
+		sudo tcpdump -nnS port 22 -w ssh.cap
+		```
+		* ![](https://i.imgur.com/K6d9ioU.png)
+		* ![](https://i.imgur.com/g7aLn1f.png)
+		```
+		sudo tcpdump -r ssh.cap
+		```
+		* ![](https://i.imgur.com/gNNRJLL.png)
 	* telnet:
-		* ![](https://i.imgur.com/NhWoFaX.png)
-		* ![](https://i.imgur.com/hKz16hQ.png)
-		* ![](https://i.imgur.com/bdYWL9a.png)
-		* ![](https://i.imgur.com/8dJm7c1.png)
+		* ![](https://i.imgur.com/c4Nm8uV.png)
+		* ![](https://i.imgur.com/sQld2AO.png)
