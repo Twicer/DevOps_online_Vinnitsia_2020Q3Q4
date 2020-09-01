@@ -25,9 +25,9 @@
 	* ![](https://i.imgur.com/seJSArj.png)
 10) epam.com is working from 3.214.134.159:
 	* ![](https://i.imgur.com/9H7hSrB.png)
-11) Routing table on the VM2:
-	* ![](https://i.imgur.com/gLRxdOg.png)
-	* Default gateway for VM2 is 10.10.10.1:
-		* ![](https://i.imgur.com/NcYkFft.png)
+11) Routing table for Host:
+	* ![](https://i.imgur.com/n1sr10u.png)
+	* Default gateway for Host:
+		* ![](https://i.imgur.com/P382Lfi.png)
 12) Trace route on VM2 to google 8.8.8.8:
 	* ![](https://i.imgur.com/DqYAytY.png)
