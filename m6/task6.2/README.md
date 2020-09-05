@@ -71,8 +71,37 @@
 2) VM3 has the following network interfaces ``/etc/network/interfaces``:
 	* ![](https://i.imgur.com/PGmNV78.png)
 	* ![](https://i.imgur.com/AGp26Jj.png)
-3) Install quagga and configure zebra and psof like for VM1.
+3) Install quagga and configure zebra and ospf like for VM1.
+	* ![](https://i.imgur.com/W7VhPRX.png)
 	* ![](https://i.imgur.com/LEmaryA.png)
 4) Zebra ``/etc/quagga/zebra.conf``  and OSPF ``/etc/quagga/ospfd.conf`` configuration files were filled in by the following way:
-        * ![](https://i.imgur.com/KumJcAu.png)
-        * ![](https://i.imgur.com/nzrqtEr.png)
+	* ![](https://i.imgur.com/KumJcAu.png)
+	* ![](https://i.imgur.com/nzrqtEr.png)
+5) Show ospf routes:
+	* ![](https://i.imgur.com/mGy7M70.png)
+6) Show VM1 routing table:
+	* ![](https://i.imgur.com/f8nCCmc.png)
+7) Configure iptables masquerade on the VM1 for port forwarding:
+	* ![](https://i.imgur.com/ECvzy9H.png)
+## VM2 **Ubuntu_no_GUI_VM2**
+1) VM2 **Ubuntu_no_GUI** has four network adapters *NAT* and three *Internal Network*:
+	* ![](https://i.imgur.com/tPuBOBv.png)
+	* ![](https://i.imgur.com/0zwV7I4.png)
+	* ![](https://i.imgur.com/f5DCTFc.png)
+	* ![](https://i.imgur.com/oopYo3O.png)
+2) VM2 has the following network interfaces ``/etc/network/interfaces``:
+	* ![](https://i.imgur.com/TyxHxuZ.png)
+	* ![](https://i.imgur.com/s2ahLJJ.png)
+3) Install quagga and configure zebra and ospf like for VM1.
+	* ![](https://i.imgur.com/JOHkc4Z.png)
+4) Zebra ``/etc/quagga/zebra.conf``  and OSPF ``/etc/quagga/ospfd.conf`` configuration files were filled in by the following way:
+	* ![](https://i.imgur.com/QR2PAo3.png)
+	* ![](https://i.imgur.com/qMTmenU.png)
+5) Show ospf routes:
+	* ![](https://i.imgur.com/UlYMINX.png)
+6) Show VM2 routing table and traceroute to 8.8.8.8:
+	* ![](https://i.imgur.com/MYV0x6L.png)
+7) Delete default gateway and set VM1 gateway then check traceroute to 8.8.8.8:
+	* ![](https://i.imgur.com/2TF19ef.png)
+8) Delete default gateway and set VM3 gataway, then check traceroute to 8.8.8.8:
+	* ![](https://i.imgur.com/mm5YEbn.png)
