@@ -1,5 +1,5 @@
 ## Task 6.2
-# Configuration DHCP and DNS server.
+# Configuring DHCP and DNS server.
 1) VM1 **Ubuntu_no_GUI** has two network adapters *NAT* and *Internal Network*:
 	* ![](https://i.imgur.com/XCh8Lcn.png)
 	* ![](https://i.imgur.com/ikCkxIN.png)
@@ -21,3 +21,17 @@
 	apt install dnsmasq
 	```
 	* ![](https://i.imgur.com/1NSuvcd.png)
+8) Set interface and dhcp-range in the ``/etc/dnsmasq.conf``:
+	* ![](https://i.imgur.com/EGL7zt4.png)
+9) Configure iptables masquerade on the VM1 for port forwarding:
+	* ![](https://i.imgur.com/D1yQnUO.png)
+10) Check DNS access on the VM2 and VM3:
+	* ![](https://i.imgur.com/C9XMUkp.png)
+	* ![](https://i.imgur.com/VTa5Yon.png)
+11) Host machine's ip:
+	* ![](https://i.imgur.com/jYTVPDd.png)
+12) Check connection from VM2 and VM3 to host machine:
+	* ![](https://i.imgur.com/8exAtei.png)
+	* ![](https://i.imgur.com/APzKgdu.png)
+
+# Configuring routing using OSPF protocol
