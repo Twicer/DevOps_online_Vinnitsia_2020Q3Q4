@@ -35,7 +35,7 @@
 	* ![](https://i.imgur.com/APzKgdu.png)
 
 # Configuring routing using OSPF protocol
-##VM1 **Ubuntu_no_GUI** 
+## VM1 **Ubuntu_no_GUI** 
 1) VM1 **Ubuntu_no_GUI** has four network adapters *NAT* and three *Internal Network*:
 	* ![](https://i.imgur.com/VdXjMe7.png)
 	* ![](https://i.imgur.com/c247JnG.png)
