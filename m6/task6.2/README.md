@@ -35,3 +35,31 @@
 	* ![](https://i.imgur.com/APzKgdu.png)
 
 # Configuring routing using OSPF protocol
+##VM1 **Ubuntu_no_GUI** 
+1) VM1 **Ubuntu_no_GUI** has four network adapters *NAT* and three *Internal Network*:
+	* ![](https://i.imgur.com/VdXjMe7.png)
+	* ![](https://i.imgur.com/c247JnG.png)
+	* ![](https://i.imgur.com/TZ7OVjj.png)
+	* ![](https://i.imgur.com/kxCuLZ3.png)
+2) Install *quagga* on VM1:
+	```
+	apt install quagga
+	```
+	* ![](https://i.imgur.com/wQyRSbk.png)
+3) VM1 has the following network interfaces ``/etc/network/interfaces``:
+	* ![](https://i.imgur.com/V5z8d5o.png)
+	* ![](https://i.imgur.com/GP5qRgj.png)
+4) Enable deamons *zebra* and *ospf* in the ``/etc/quagga/daemons``:
+	* ![](https://i.imgur.com/SZGEamD.png)
+5) Configure zebra and ospf using vtysh console:
+	* ![](https://i.imgur.com/XllQL7X.png)
+6) Show ospf routes:
+	* ![](https://i.imgur.com/vV6D2DU.png)
+7) Show VM1 routing table:
+	* ![](https://i.imgur.com/q658KO0.png)
+8) Zebra ``/etc/quagga/zebra.conf``  and OSPF ``/etc/quagga/ospfd.conf`` configuration files were filled in by the following way:
+	* ![](https://i.imgur.com/4W1wh9O.png)
+	* ![](https://i.imgur.com/zFlerfL.png) 
+9) Configure iptables masquerade on the VM1 for port forwarding:
+	* ![](https://i.imgur.com/fcvvUcO.png)
+
