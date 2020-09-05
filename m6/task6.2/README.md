@@ -62,4 +62,17 @@
 	* ![](https://i.imgur.com/zFlerfL.png) 
 9) Configure iptables masquerade on the VM1 for port forwarding:
 	* ![](https://i.imgur.com/fcvvUcO.png)
-
+## VM3 **Ubuntu_no_GUI_VM2_Clone** 
+1) VM3 **Ubuntu_no_GUI** has four network adapters *Bridge* and three *Internal Network*:
+	* ![](https://i.imgur.com/9MdCfI0.png)
+	* ![](https://i.imgur.com/7cDXodR.png)
+	* ![](https://i.imgur.com/O3J2tVd.png)
+	* ![](https://i.imgur.com/O3J2tVd.png)
+2) VM3 has the following network interfaces ``/etc/network/interfaces``:
+	* ![](https://i.imgur.com/PGmNV78.png)
+	* ![](https://i.imgur.com/AGp26Jj.png)
+3) Install quagga and configure zebra and psof like for VM1.
+	* ![](https://i.imgur.com/LEmaryA.png)
+4) Zebra ``/etc/quagga/zebra.conf``  and OSPF ``/etc/quagga/ospfd.conf`` configuration files were filled in by the following way:
+        * ![](https://i.imgur.com/KumJcAu.png)
+        * ![](https://i.imgur.com/nzrqtEr.png)
