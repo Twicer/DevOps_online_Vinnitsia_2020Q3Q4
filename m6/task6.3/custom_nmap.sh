@@ -39,14 +39,14 @@ customTarget() {
     printf "\t\tPort scanning\n"
     
     # Check if the port number is defined
-    if [[ ($3 -gt 0) && ($3 -le 65535) ]]; then
+    if [[ ($2 -gt 0) && ($2 -le 65535) ]]; then
         separateOutput
         # Check connection to IP address through defined port
-        nc -znv "${2}" "${3}"
+        nc -znv "${1}" "${2}"
     # If port number is not defined, scan the connection through all ports
-    elif [ "${3}" = "" ]; then
+    elif [ -z "${2}" ]; then
         separateOutput
-        nc -zv "${2}" 1-65535 2>&1 | grep succeeded
+        nc -zv "${1}" 1-65535 2>&1 | grep succeeded
     else
         printf "custom_nmap: port number invalid: $3\n"
     fi
@@ -56,14 +56,17 @@ customTarget() {
 
 
 customMan() {
-    printf "Custom nmap v1.0.0 by Denys Koval \n\
-Usage: custom_nmap [OPTION] \n\n\
-OPTIONS \n \
-    --all, -a \n \
-         Display the reachable IP addresses and its symbolic names of all hosts in the current sybnet. \n \
-    --target, -t <IP> <Port> \n \
-         If only <IP> is specified display the list of open systen TCP ports in specified IP. \n \
-         If specified <IP> <Port> display if TCP <Port> is open in specified IP. \n"
+    echo "Custom nmap v1.0.0 by Denys Koval"
+
+cat <<EOF
+Usage: custom_nmap [OPTION]
+OPTIONS
+    --all, -a
+        Display the reachable IP addresses and its symbolic names of all hosts in the current subnet.
+    --target, -t <IP> <Port>
+        If only <IP> is speified display the list of open systen TCP ports in specified IP.
+        If specified <IP> <Port> display if TCP <Port> is open in specified IP.
+EOF
 }
 
 
@@ -79,17 +82,17 @@ separateOutput() {
 
 #############----Main----#############
 
+
 if [[ -z "${1}"  ||  "${1}" = --help ]]; then
     customMan
 elif [[ "${1}" = --all || "${1}" = -a ]]; then
     customAll
 elif [[ "${1}" = --target || "${1}" = -t ]]; then
     if [ -n "${2}" ]; then
-        customTarget $1 $2 $3
+        customTarget $2 $3
     else
         customMan
     fi
 else
     customMan
 fi
-
