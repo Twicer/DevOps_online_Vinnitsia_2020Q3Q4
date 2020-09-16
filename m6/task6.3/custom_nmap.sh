@@ -77,12 +77,7 @@ separateOutput() {
 }
 
 
-
-
-
 #############----Main----#############
-
-
 if [[ -z "${1}"  ||  "${1}" = --help ]]; then
     customMan
 elif [[ "${1}" = --all || "${1}" = -a ]]; then
