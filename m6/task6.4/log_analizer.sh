@@ -41,18 +41,31 @@ request_count_per_hour() {
     date=`awk '{print $4}' apache_logs.txt | cut -f2 -d "[" | cut -f1 -d: |uniq`
     count_point=0
     time_line=""
-    for i in "$date"; do
-        for j in {00..23}; do
-            requests_count=`grep "$i:$j" $1 | wc -l`
-            save_time="$i:$j"
-            if [ $requests_count -gt $count_point ]; then
-                count_point=$[ requests_count ]
-                time_line=$save_time
-            fi
+    if [ "$2" != "--all" ]; then
+        for i in "$date"; do
+            for j in {00..23}; do
+                requests_count=`grep "$i:$j" $1 | wc -l`
+                save_time="$i:$j"
+                if [ $requests_count -gt $count_point ]; then
+                    count_point=$[ requests_count ]
+                    time_line=$save_time
+                fi
+            done
         done
-    done
-    separate_Output
-    printf "\t $time_line - $count_point requests \n"
+        separate_Output
+        printf "\t $time_line - $count_point requests \n"
+    else
+        separate_Output
+        for i in "$date"; do
+            for j in {00..23}; do
+                requests_count=`grep "$i:$j" $1 | wc -l`
+                save_time="$i:$j"
+                if [ $requests_count -gt $count_point ]; then
+                    printf "\t $save_time - $requests_count requests \n"
+                fi
+            done
+        done
+    fi
 }
 
 
@@ -87,8 +100,9 @@ OPTIONS
         Display requests count, status code, and URL of most requested pages.
     --npage       
        Display URL and status code of reqouest to none-existent pages.
-    --hreq
+    --hreq [LOG FILE] [--all]
         Display date, time, when there were most requests to site and count requests.
+        If parametr [--all] is defined, display all date, time where there were requests to site and count requests
     --breq
         Display count, IP addresses, and status code requests from bots to site.
 EOF
@@ -101,7 +115,7 @@ case "$1" in
     --dip)      [ -n "$2" ] && requests_from_defined_IP $2 $3 || customMan ;;
     --mpage)    [ -n "$2" ] && most_requested_page $2 || customMan ;;
     --npage)    [ -n "$2" ] && request_to_none_existent_page $2 || customMan ;;
-    --hreq)     [ -n "$2" ] && request_count_per_hour $2 || customMan ;;
+    --hreq)     [ -n "$2" ] && request_count_per_hour $2 $3 || customMan ;;
     --breq)     [ -n "$2" ] && request_from_bots $2 || customMan;;
     --help)     customMan ;;
     *)          customMan ;;
