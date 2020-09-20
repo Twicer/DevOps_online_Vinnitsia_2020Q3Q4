@@ -33,7 +33,7 @@ most_requested_page() {
 
 request_to_none_existent_page() {
     separate_Output
-    awk '{ print "\t" $7 " - " $9}' $1 | grep 302 | sort | uniq
+    awk '{ print "\t" $1 " (" $14 ")" " - " $7 " - " $9}' $1 | grep 404 | sort | uniq
 }
 
 

@@ -3,7 +3,7 @@
 # Custom log analizer
 
 1. If script is run without options you'll get a man page:
-    * ![](https://i.imgur.com/QXf7MRq.png)
+    * ![](https://i.imgur.com/jPCZVQs.png)
 2. Options:
     * --mip - Display from which IP address there were most requests and count requests:
         * ![](https://i.imgur.com/S6zt7bk.png)
@@ -15,8 +15,8 @@
         * ![](https://i.imgur.com/YEUy1KM.png)
     * --mpage - Display requests count, status code, and URL of most requested pages.
         * ![](https://i.imgur.com/NDsEgkG.png)
-    * --npage - Display URL and status code of reqouest to none-existent pages.
-        * ![](https://i.imgur.com/sOW0coy.png)
+    * --npage - Display IP, User Agent, URL, and status code of requests to none-existent pages.
+        * ![](https://i.imgur.com/Ds6Mmnm.png)
     * --hreq - Display date, time, when there were most requests to site and count requests. If parametr [--all] is defined, display all date, time where there were requests to site and count requests
         * ![](https://i.imgur.com/aVbZ0zz.png)
         * ![](https://i.imgur.com/f5pGT19.png)
