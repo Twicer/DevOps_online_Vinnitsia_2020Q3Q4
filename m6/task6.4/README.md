@@ -4,7 +4,7 @@
 
 1. If script is run without options you'll get a man page:
     * ![](https://i.imgur.com/h0uKv3q.png)
-Options:
+2. Options:
     * --mip - Display from which IP address there were most requests and count requests:
         * ![](https://i.imgur.com/S6zt7bk.png)
     * --rcount [IP] - Display IP addresses from which there were requests and count it. If [IP] is defined count requests from that IP.
