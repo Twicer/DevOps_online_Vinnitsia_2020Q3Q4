@@ -2,6 +2,7 @@
 ## Custom backup
 
 1. If script is run without options you'll get a man page:
+    * ![](https://i.imgur.com/18C7uow.png)
 2. Add script executing to the crontab one time per minute:
     * ![](https://i.imgur.com/c24BO3h.png)
 3. See crontab log, to make sure that job is executing:
