@@ -1,4 +1,4 @@
-# Task 5.6
+# Task 6.6
 ## Custom backup
 
 1. If script is run without options you'll get a man page:
