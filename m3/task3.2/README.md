@@ -19,3 +19,4 @@
 	* ![](https://i.imgur.com/Uo2UmBM.png)
 10) Check if transfer is sucessful:
 	* ![](https://i.imgur.com/c28oNxA.png)
+ 
